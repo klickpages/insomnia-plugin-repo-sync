@@ -1,12 +1,12 @@
 {
-  "name": "insomnia-plugin-repo-sync",
+  "name": "@klicksite/insomnia-plugin-repo-sync",
   "version": "0.1.0",
-  "author": "Rafael Simao <rafasimaocosta@gmail.com>",
+  "author": "Klickpages <accounts@klickpages.com.br>",
   "description": "Repo Sync Plugin for Insomnia",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ignicaodigitalbr/insomnia-plugin-repo-sync.git"
+    "url": "git+https://github.com/klickpages/insomnia-plugin-repo-sync.git"
   },
   "keywords": [
     "insomnia",
@@ -14,7 +14,7 @@
     "git"
   ],
   "bugs": {
-    "url": "https://github.com/ignicaodigitalbr/insomnia-plugin-repo-sync/issues"
+    "url": "https://github.com/klickpages/insomnia-plugin-repo-sync/issues"
   },
   "main": "src/index.js",
   "insomnia": {
@@ -29,6 +29,6 @@
     }
   },
   "dependencies": {},
-  "homepage": "https://github.com/ignicaodigitalbr/insomnia-plugin-repo-sync#readme",
+  "homepage": "https://github.com/klickpages/insomnia-plugin-repo-sync#readme",
   "devDependencies": {}
 }
