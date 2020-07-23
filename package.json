@@ -1,0 +1,34 @@
+{
+  "name": "insomnia-plugin-repo-sync",
+  "version": "0.1.0",
+  "author": "Rafael Simao <rafasimaocosta@gmail.com>",
+  "description": "Repo Sync Plugin for Insomnia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaostroher/insomnia-plugin-repo-sync.git"
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "git"
+  ],
+  "bugs": {
+    "url": "https://github.com/joaostroher/insomnia-plugin-repo-sync/issues"
+  },
+  "main": "src/index.js",
+  "insomnia": {
+    "name": "repo-sync",
+    "displayName": "Repo Sync Plugin",
+    "description": "This plugin allows users to sync workspaces in a configured repository.",
+    "images": {
+      "icon": "icon.svg"
+    },
+    "applications": {
+      "core": "*"
+    }
+  },
+  "dependencies": {},
+  "homepage": "https://github.com/joaostroher/insomnia-plugin-repo-sync#readme",
+  "devDependencies": {}
+}
