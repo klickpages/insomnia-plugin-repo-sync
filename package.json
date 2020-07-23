@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joaostroher/insomnia-plugin-repo-sync.git"
+    "url": "git+https://github.com/ignicaodigitalbr/insomnia-plugin-repo-sync.git"
   },
   "keywords": [
     "insomnia",
@@ -14,7 +14,7 @@
     "git"
   ],
   "bugs": {
-    "url": "https://github.com/joaostroher/insomnia-plugin-repo-sync/issues"
+    "url": "https://github.com/ignicaodigitalbr/insomnia-plugin-repo-sync/issues"
   },
   "main": "src/index.js",
   "insomnia": {
@@ -29,6 +29,6 @@
     }
   },
   "dependencies": {},
-  "homepage": "https://github.com/joaostroher/insomnia-plugin-repo-sync#readme",
+  "homepage": "https://github.com/ignicaodigitalbr/insomnia-plugin-repo-sync#readme",
   "devDependencies": {}
 }

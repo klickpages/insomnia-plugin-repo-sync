@@ -14,7 +14,7 @@ module.exports.workspaceActions = [{
   icon: 'fa-download',
   action: async (context, models) => {
     const repo = new WorkspaceRepo(context);
-    if (!verifyRepoConfig(repo, context)) return;
+    if (!await verifyRepoConfig(repo, context)) return;
 
     const path = await repo.getPath();
     const ex = await context.data.export.insomnia({
@@ -31,7 +31,7 @@ module.exports.workspaceActions = [{
   icon: 'fa-upload',
   action: async (context, models) => {
     const repo = new WorkspaceRepo(context);
-    if (!verifyRepoConfig(repo, context)) return;
+    if (!await verifyRepoConfig(repo, context)) return;
 
     const path = await repo.getPath();
     const imported = fs.readFileSync(`${path}/${models.workspace.name}.yml`, 'utf8');
