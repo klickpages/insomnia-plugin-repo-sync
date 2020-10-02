@@ -1,3 +1,4 @@
+const { dirname } = require('path');
 class ScreenHelper {
   static async alertError(context, message) {
     return await context.app.alert('Erro!', message);
@@ -10,14 +11,8 @@ class ScreenHelper {
     );
     const path = await context.app.showSaveDialog({defaultPath: options.workspaceName});
 
-    return normalizePath(path);
+    return dirname(path);
   }
 }
-
-const normalizePath = (path) => {
-  if (path == null || path == 'undefined') return null;
-
-  return path.substr(0, path.lastIndexOf('/'));
-};
 
 module.exports = ScreenHelper;
